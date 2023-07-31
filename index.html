@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landmark University</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <script src="vanilla.js" defer></script>
+</head>
+<body">
+  <!-- <div class="w-75" style="width: 70%; height: 200px; background-color: bisque;">
+    <h1 id="intro">Chat App</h1>
+    <h4 id="userName">Login User Name: </h4>
+    <div style="width: 90%; height: 150px; background-color: white; margin:auto;">
+    </div>
+    <div style="margin: auto; padding: auto; width: 60%;">
+      <input type="text" id="inpMsg">
+      <button onclick="sendMsg()">Send</button>
+    </div>
+  </div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-6 pt-3 mx-auto shadow" style="margin-top: 5%;">
+        <h3>Chat Box <span id="userName" style="float: right;"></span></h3>
+         <hr>
+         <div class=" bg-light mb-3 shadow" id="" style="height: 300px;">
+          <p id="chatLine"></p>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-8">
+            <input class="form-control" type="text" placeholder="Send message" id="msgInp">
+          </div>
+          <div class="col-4"><button class="btn btn-success btn-block" onclick="sendMsg()">Send</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/bootstrap.js" defer></script>
+</body>
+</html>  
