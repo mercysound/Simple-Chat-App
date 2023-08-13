@@ -26,3 +26,10 @@ function sendMsg(){
   }
   
 }
+// multiplication table
+// for(i = 1; i < 10; i++){
+//   console.log(i);
+//   for(j = 1; j <= 9; j++){
+//     console.log(`${i + " X " + j + " = " + i*j}`);
+//   }
+// }
